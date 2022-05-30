@@ -3,6 +3,7 @@
 
 """
     Game of life and matrix for Pico
+    By N.MERCOUROFF
 
 """
 
@@ -244,7 +245,6 @@ while True:
 
 while True:
     if p == 4:
-#        display_text("1 & 2 = GoL, 3 = Matrix")
         sleep(0.1)
         while True:
             p = pressed()
