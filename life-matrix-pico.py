@@ -129,7 +129,6 @@ def gol_fill_alea(r):
 
     
 def gol_init(r):
-    fill_zero()
     if r == 1:
         gol_fill_glider()
     else:
@@ -236,7 +235,8 @@ def matrix():
 
 scroll.init()
 display_clear()
-    
+fill_zero()
+
 while True:
     p = pressed()
     if p != 0:
